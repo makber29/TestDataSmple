@@ -1,0 +1,30 @@
+{
+  "testsClass.SmokeTestSuite": {
+    "testMethods": {
+      "verifyHomePage": {
+        "data": {
+          "expectedPageTitle" : "Google",
+          "logo" : "Google Logo",
+          "siginInLink" : "Sigin Link"
+
+
+        }
+      },
+      "verifyDashboardMenu": {
+        "data": {
+          "expectedMenu" : "Dashboard",
+          "userLink" : "User Link"
+        }
+      }
+    }
+  },
+  "testsClass.RegressionTestSuite": {
+    "testMethods": {
+      "verifyCreateAnAccountPage": {
+        "data": {
+          "createAccountButton" : "Create Account Button"
+        }
+      }
+    }
+  }
+}
