@@ -2,18 +2,34 @@
   "testsClass.SmokeTestSuite": {
     "testMethods": {
       "verifyHomePage": {
-        "data": {
-          "expectedPageTitle" : "Google",
-          "logo" : "Google Logo",
-          "siginInLink" : "Sigin Link"
-
-
+        "dataSet": {
+          "data-01": {
+            "expectedPageTitle": "Google",
+            "logo": "Google Logo",
+            "siginInLink": "Sigin Link"
+          },
+          "data-02": {
+            "expectedPageTitle": "Google 2",
+            "logo": "Google Logo 2",
+            "siginInLink": "Sigin Link 2"
+          },
+          "data-03": {
+            "expectedPageTitle": "Google 3",
+            "logo": "Google Logo 3",
+            "siginInLink": "Sigin Link 3"
+          }
         }
       },
       "verifyDashboardMenu": {
-        "data": {
-          "expectedMenu" : "Dashboard",
-          "userLink" : "User Link"
+        "dataSet": {
+          "data-01": {
+            "expectedMenu": "Dashboard",
+            "userLink": "User Link"
+          },
+          "data-02": {
+            "expectedMenu": "Dashboard 1",
+            "userLink": "User Link 1"
+          }
         }
       }
     }
@@ -21,8 +37,10 @@
   "testsClass.RegressionTestSuite": {
     "testMethods": {
       "verifyCreateAnAccountPage": {
-        "data": {
-          "createAccountButton" : "Create Account Button"
+        "dataSet": {
+          "data -01": {
+            "createAccountButton": "Create Account Button"
+          }
         }
       }
     }
